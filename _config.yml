@@ -8,4 +8,5 @@ url: "http://friends.fail"
 github_username: lhunath
 
 # Build settings
+exclude: [vendor]
 markdown: kramdown
