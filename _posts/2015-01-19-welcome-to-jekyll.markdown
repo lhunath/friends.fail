@@ -1,25 +1,14 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Getting our !@#$% together!"
 date:   2015-01-19 15:32:52
 categories: jekyll update
+author: Denola
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+We just got seriously motivated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+This is the kind of motivation that is inspiring, encouraging, full of awesome ideas and generally doesn't last much longer than an hour.
 
-Jekyll also offers powerful support for code snippets:
+So we're giving it all we've got until then.  To start, here's a website.  You're welcome.  I'll even put an awesome first post on it which will be all the incentive I'll need to come back every so often to post news and updates for all you curious netizens.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+OK, that's all I've got for now.  But that was pretty good while it lasted.  I'm sure I'll feel crazy ambitious again soon!
