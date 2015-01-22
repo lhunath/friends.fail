@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Manifesto
+description: The values that define us.  All members are expected to know and adhere to these.
 class: manifesto
 permalink: /manifesto/
 ---

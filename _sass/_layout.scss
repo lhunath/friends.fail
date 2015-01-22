@@ -52,10 +52,39 @@ h4 {
  */
 .site-header {
     background: rgba(0, 0, 0, 0.3);
-    min-height: 56px;
     z-index: 1;
     width: 100%;
     position: fixed;
+    padding: 0;
+
+    transition: 0.2s all;
+
+    nav {
+        position: relative;
+
+        a {
+            display: inline-block;
+            line-height: 56px;
+            padding: 0 10px;
+
+            & + div {
+                display: none;
+                float: right;
+                width: 100%;
+                margin-top: -1ex;
+                padding-bottom: 1ex;
+
+                font-size: smaller;
+
+                opacity: 0;
+                transition: .2s opacity;
+            }
+            &:hover + div {
+                display: block;
+                opacity: 1;
+            }
+        }
+    }
 }
 
 .intro {
@@ -198,7 +227,6 @@ h4 {
 
 .site-nav {
     text-align: right;
-    line-height: 56px;
 
     .menu-icon {
         display: none;
@@ -206,11 +234,6 @@ h4 {
 
     .page-link, .site-link {
         color: $text-color;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
     }
     .site-link {
         float: left;

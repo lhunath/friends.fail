@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Members
+description: The amazing people that make up the team.
 class: members
 permalink: /members/
 ---
