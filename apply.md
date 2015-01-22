@@ -16,4 +16,4 @@ Do you fail at taking life more serious than you do your garisson duties?
 
 Looking to get away from hate, drama or self-centered Azerothians?
 
-### Consider Friends with Benefits!  Message [one of our officers](/members) in-game.
+### Consider Friends with Benefits!  Message [one of our officers](/members) in-game. moo.
