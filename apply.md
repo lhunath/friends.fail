@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Apply
+description: Guildless?  Bored with your guild?  Interested in joining Friends with Benefits?
 class: apply
 permalink: /apply/
 ---
