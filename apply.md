@@ -15,5 +15,5 @@ Are you an experienced raider looking to fit in somewhere?
 Do you fail at taking life more serious than you do your garisson duties?
 
 Looking to get away from hate, drama or self-centered Azerothians?
-
+a
 ### Consider Friends with Benefits!  Message [one of our officers](/members) in-game!
