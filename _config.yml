@@ -7,5 +7,12 @@ baseurl: ""
 url: "http://friends.fail"
 github_username: lhunath
 
+# Exclude system files
+exclude: [.gitignore]
+
 # Build settings
 markdown: kramdown
+
+# Disqus
+disqus_shortname: friends-with-benefits
+disqus_publickey: FFFfPIzYpKNVzlWBPdPvfXv0CjkbZap4cRnC6RC79FFAEVpwb7EKtuq4RdR76a30

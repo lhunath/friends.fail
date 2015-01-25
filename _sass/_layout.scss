@@ -14,6 +14,7 @@ html, body {
 }
 
 section {
+    background: #224;
     box-shadow: 0 0 5px #000;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 
@@ -86,6 +87,12 @@ h4 {
         }
     }
 }
+.edit-page {
+    position: absolute;
+    top: 1ex;
+    right: 0;
+    padding-right: inherit;
+}
 
 .intro {
     background: url("../img/intro.jpg");
@@ -126,8 +133,6 @@ h4 {
 }
 
 .members {
-    background: #144;
-
     ul {
         margin: 0;
         padding: 0;
@@ -207,22 +212,6 @@ h4 {
             }
         }
     }
-}
-
-.manifesto {
-    background: #224;
-}
-
-.posts {
-    background: #133;
-}
-
-.apply {
-    background: #143;
-}
-
-.forums {
-    background: #423;
 }
 
 .site-nav {

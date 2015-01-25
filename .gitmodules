@@ -1,0 +1,3 @@
+[submodule "forum"]
+	path = forum
+	url = https://github.com/lhunath/friends.fail-forum.git
