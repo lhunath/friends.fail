@@ -5,7 +5,7 @@ date:   2015-01-19 15:32:52
 categories: jekyll update
 author: Denola
 ---
-We just got seriously motivated.
+We just got seriously motivated!
 
 This is the kind of motivation that is inspiring, encouraging, full of awesome ideas and generally doesn't last much longer than an hour.
 
