@@ -28,11 +28,7 @@ permalink: /members/
         <h2>Pallydes</h2>
         <h3>Pallydes unnaturally firm.</h3>
 
-    </a></li>
-    <li style="background-image:url('http://us.battle.net/static-render/us/argent-dawn/200/147257032-profilemain.jpg?alt=/wow/static/images/2d/profilemain/race/22-1.jpg')"><a class="post-link" href="http://us.battle.net/wow/en/character/argent-dawn/Zchotzy/simple">
-
-        <h2>Zchotzy</h2>
-        <h3>Zchotzy is wild.</h3>
+   
 
     </a></li>
 </ul>
