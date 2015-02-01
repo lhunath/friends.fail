@@ -5,5 +5,3 @@ category-group: true
 summary: All game-related topics.
 id: ingame
 ---
-
-# In-Game Topics

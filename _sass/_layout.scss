@@ -11,6 +11,7 @@ html, body {
     height: 100%;
 
     font-family: 'Poiret One', sans-serif;
+    font-size: 16pt;
 }
 
 section {
@@ -23,28 +24,42 @@ section {
     width: 100%;
     min-height: 80%;
     padding: 5em 5em;
+    overflow: hidden;
 }
 
 h1 {
     font-family: 'Londrina Sketch', cursive;
-    font-size: 500%;
+    font-size: 400%;
     text-align: center;
     text-shadow: 0px 0px 3px #000;
 }
 
 h2 {
+    background: rgba(0, 0, 0, 0.1);
+    margin: 0 -100%;
+    padding: 0 100%;
+
+    font-family: 'Fontdiner Swanky', cursive;
+    font-family: 'Almendra Display', cursive;
+    font-family: 'Akronim', cursive;
+    font-family: 'Righteous', cursive;
     font-size: 200%;
     font-weight: 900;
     text-shadow: 0px 0px 2px #000;
 }
 
 h3 {
+    font-family: 'Fontdiner Swanky', cursive;
+    font-family: 'Almendra Display', cursive;
+    font-family: 'Akronim', cursive;
     font-size: 150%;
     font-weight: 100;
     text-shadow: 0px 0px 1px #000;
 }
 
 h4 {
+    font-family: 'Fontdiner Swanky', cursive;
+    font-family: 'Almendra Display', cursive;
     font-size: 100%;
 }
 
@@ -114,7 +129,7 @@ h4 {
         font-family: 'Righteous', cursive;
         font-family: 'Londrina Sketch', cursive;
         font-family: 'Flavors', cursive;
-        font-size: 700%;
+        font-size: 500%;
 
         a, & {
             color: #FFF;
@@ -273,9 +288,6 @@ h4 {
     }
 }
 
-ul {
-    list-style: none;
-}
 
 
 
