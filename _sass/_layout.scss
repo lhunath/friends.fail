@@ -63,6 +63,18 @@ h4 {
     font-size: 100%;
 }
 
+li {
+    list-style: none;
+    &:before {
+        content: "❧";
+        float: left;
+
+        padding-right: 1ex;
+        padding-top: 1ex;
+        font-size: 70%;
+    }
+}
+
 /**
  * Site header
  */
@@ -152,6 +164,7 @@ h4 {
         margin: 0;
         padding: 0;
 
+        list-item: none;
         text-align: center;
 
         li {
@@ -167,6 +180,10 @@ h4 {
             border-radius: 150px;
             box-shadow: 0 0 3px #000;
             border: 1px solid rgba(255, 255, 255, 0.1);
+
+            &:before {
+                display: none;
+            }
 
             a {
                 display: block;
@@ -190,6 +207,8 @@ h4 {
             }
 
             h2 {
+                background: transparent;
+
                 position: absolute;
                 bottom: 50px;
                 left: 30%;
@@ -201,6 +220,8 @@ h4 {
                 transition: 0.2s all;
             }
             h3 {
+                background: transparent;
+
                 position: absolute;
                 left: 30%;
                 top: 250px;
@@ -222,7 +243,8 @@ h4 {
                 padding: 1ex;
                 box-sizing: border-box;
 
-                transition: 0.3s all;
+                transition: 0.3s opacity;
+                text-shadow: none !important;
                 opacity: 0;
             }
         }

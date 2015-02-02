@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $link-color;
     text-decoration: none;
-    text-shadow: 0 0 black, 0 0 black, 0 0 black, 0 0 black, 0 0 10px white, 0 0 5px blue;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 5px blue, 0 0 1px blue, 0 0 10px white;
     transition: .2s text-shadow;
 
     &:visited {
@@ -100,7 +100,7 @@ a {
 
     &:hover {
         color: $text-color;
-        text-shadow: 0 0 20px black, 0 0 20px black, 0 0 20px black, 0 0 black, 0 0 2px white, 0 0 5px blue;
+        text-shadow: 0 0 20px black, 0 0 20px black, 0 0 20px blue, 0 0 blue, 0 0 2px white;
     }
 }
 
