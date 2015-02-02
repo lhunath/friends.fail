@@ -114,11 +114,19 @@ li {
         }
     }
 }
-.edit-page {
+
+.page-edit {
     position: absolute;
     top: 1ex;
     right: 0;
     padding-right: inherit;
+}
+
+.page-back {
+    position: absolute;
+    top: 1ex;
+    left: 0;
+    padding-left: inherit;
 }
 
 .intro {
