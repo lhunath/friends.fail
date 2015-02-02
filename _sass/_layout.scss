@@ -73,6 +73,10 @@ li {
         padding-top: 1ex;
         font-size: 70%;
     }
+
+    li:before {
+        content: "∙";
+    }
 }
 
 strong {
