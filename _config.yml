@@ -6,6 +6,7 @@ description: >
 baseurl: ""
 url: "http://friends.fail"
 github_username: lhunath
+resource_version: 1
 
 # Exclude system files
 exclude: [.gitignore]

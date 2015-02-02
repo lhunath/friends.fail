@@ -15,7 +15,7 @@
         <script src="{{ site.baseurl }}/js/jquery-mustache.js"></script>
         <script src="{{ site.baseurl }}/js/mustache.js"></script>
         {% for script in page.scripts %}
-        <script src="{{ site.baseurl }}{{ script }}"></script>
+        <script src="{{ site.baseurl }}{{ script }}?{{ site.resource_version }}"></script>
         {% endfor %} 
     </body>
 
