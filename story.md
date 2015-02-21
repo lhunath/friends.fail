@@ -1,3 +1,11 @@
+---
+layout: page
+title: Story
+description: And then there were four.
+class: story
+permalink: /story/
+---
+
 ## Chapter 1
 
 It was another cold night.  Too cold to go anywhere.  Jack sat beside the fire.
