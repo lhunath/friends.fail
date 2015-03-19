@@ -1,0 +1,26 @@
+---
+layout: page
+scripts: [/js/category.js]
+back: /forums
+---
+
+{{ content }}
+
+<h4><a class="toggle button" href="#new-thread-panel">Create New Thread</a></h4>
+<div id="new-thread-panel" class="toggle panel">
+    <form id="new-thread" role="form" action="{{ site.baseurl }}/thread.html">
+        <input type="text" id="thread-name" placeholder="Enter thread subject" />
+        <input type="hidden" name="category" value="{{ page.id }}" />
+        <input type="hidden" name="thread" class="thread" value="" />
+        <button type="submit" class="btn btn-default">Create Thread</button>
+    </form>
+</div>
+
+<h2>Threads</h2>
+<div id="thread-loader">
+    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+        <span>Loading threads...</span>
+    </div>
+</div>
+<ul id="threads" class="media-list" data-id="{{ page.id }}"></ul>
+<a href="#">&larr; Previous</a> | <a href="#">Next &rarr;</a>

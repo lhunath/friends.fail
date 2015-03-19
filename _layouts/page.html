@@ -1,14 +1,24 @@
 ---
 layout: default
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+<section class="intro {% unless page.big-intro %}small{% endunless %}">
 
-  <article class="post-content">
+    <h1><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+
+</section>
+
+<section class="{{ page.class }}">
+    {% if page.editable or page.editable == null %}
+        <h4 class="page-edit"><a href="https://github.com/lhunath/friends.fail/edit/gh-pages/{{ page.path }}">[edit]</a></h4>
+    {% endif %}
+
+    {% if page.back %}
+        <h4 class="page-back"><a href="{{ page.back }}">Back</a></h4>
+    {% endif %}
+    {% if page.title %}
+        <h1 class="post-title">{{ page.title }}</h1>
+    {% endif %}
+
     {{ content }}
-  </article>
-
-</div>
+</section>

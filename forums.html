@@ -1,0 +1,25 @@
+---
+layout: page
+title: Forums
+description: Discussion, planning, help and general guild chat.
+class: forums
+permalink: /forums/
+---
+
+{% for group in site.pages %}
+    {% if group.category-group == true %}
+        <h2>{{ group.title }}</h2>
+        <h5>{{ group.summary }}</h5>
+        
+        <ul>
+            {% for category in site.pages %}
+                {% if category.category and category.group-id == group.id %}
+                    <li>
+                        <h3><a href="{{ site.baseurl }}{{ category.url }}">{{ category.title }}</a></h3>
+                        <h5>{{ category.summary }}</h5>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endfor %}
