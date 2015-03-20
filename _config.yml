@@ -12,6 +12,7 @@ resource_version: 1
 exclude: [.gitignore]
 
 # Build settings
+exclude: [vendor]
 markdown: kramdown
 
 # Disqus
