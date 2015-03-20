@@ -40,6 +40,7 @@ while she tried to figure things out.
 
 "Don't worry, Jack.  I'll take care of it."
 
+
 ## Chapter 2
 
 Chuck hated this job.  He was a star.  This was demeaning.  But it's what payed the bills, and would have to do for now.
@@ -54,6 +55,7 @@ He walked up the dark driveway and stood in front of the large, solid wooden doo
 He closed his eyes, undid the top three buttons of his shirt, enough to reveal his dark bushy chest hair, and rang the bell.
 
 To his surprize, a female clown opened the door.
+
 
 ## Chapter 3
 
@@ -90,6 +92,12 @@ He made for the room on the right, the apparent origin of the thuds.
 
 Wondering what could cause such definite, powerful yet dampened blows he turned the cold brass handle and stepped
 into the orange haze that came pouring out as the heavy door slid open without a creek.
+
+
+## Chapter 4
+
+
+
 
 ## Features
 

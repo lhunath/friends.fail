@@ -228,6 +228,9 @@ em {
                     h2 {
                         font-size: 250%;
                     }
+                    h4 {
+                        opacity: 1;
+                    }
                 }
             }
 
@@ -254,6 +257,15 @@ em {
                 white-space: nowrap;
 
                 line-height: 1em;
+            }
+            h4 {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+                z-index: 1;
             }
             div {
                 background: #255;
