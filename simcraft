@@ -7,14 +7,6 @@ for member in [A-Z]*.md; do
     server=$(awk -F': ' '/member-server/{print $2}' "$member")
 
     printf "Simulating $name..."
-    touch -r "$name-sim.html" tmp
-    hash=$(openssl sha1 < "$name-sim.html")
     dps=$(/Applications/SimulationCraft/simc armory="us,$server,$name" html="$name-sim.html" | awk -F'[: ]' '/DPS:/ {print $5; exit}')
-    newhash=$(openssl sha1 < "$name-sim.html")
-    if [[ $newhash = $hash ]]; then
-        touch -r tmp "$name-sim.html"
-        echo " $dps [unchanged]"
-    else
-        echo " $dps [updated! $hash -> $newhash]"
-    fi
+    echo " $dps DPS"
 done
