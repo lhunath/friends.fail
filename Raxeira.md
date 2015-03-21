@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Raxeira
-member-rank: 3
+member-rank: 4
 member-server: argent-dawn
 member-armory: 203/161300427
 subtitle: Raxeira is gorgeously opinionated.

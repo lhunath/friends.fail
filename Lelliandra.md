@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lelliandra
-member-rank: 2
+member-rank: 1
 member-server: argent-dawn
 member-armory: 168/159098792
 subtitle: Lelliandra is pleasantly drunk.

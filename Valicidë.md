@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Valicidë
-member-rank: 3
+member-rank: 4
 member-server: argent-dawn
 member-armory: 50/161735986
 subtitle: Valicidë is leetsauce.

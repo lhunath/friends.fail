@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Modan
-member-rank: 2
+member-rank: 1
 member-server: the-scryers
 member-armory: 78/147253582
 subtitle: Modan is smexy.

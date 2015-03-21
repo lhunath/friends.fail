@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Denola
-member-rank: 3
+member-rank: 4
 member-server: argent-dawn
 member-armory: 92/159079004
 subtitle: Denola is silently brilliant.

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Kreesto
-member-rank: 3
+member-rank: 4
 member-server: argent-dawn
 member-armory: 63/161846079
 subtitle: Kreesto is trouble.
