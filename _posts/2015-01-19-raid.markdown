@@ -6,4 +6,4 @@ categories: hm brf
 author: Denola
 ---
 
-[Butcher!]({{ site.url }}/assets/2015-03-20-butcher.jpg)
+![Butcher!](/assets/2015-03-20-butcher.jpg)
