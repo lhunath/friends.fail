@@ -2,8 +2,8 @@
 layout: page
 title: Modan
 member-rank: 1
-member-server: the-scryers
-member-armory: 78/147253582
+member-realm: the-scryers
+member-armory: argent-dawn/78/147253582
 subtitle: is smexy.
 ---
 

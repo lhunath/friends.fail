@@ -2,8 +2,8 @@
 layout: page
 title: Primrose
 member-rank: 1
-member-server: argent-dawn
-member-armory: 99/159078755
+member-realm: argent-dawn
+member-armory: argent-dawn/99/159078755
 subtitle: is hilarious.
 ---
 

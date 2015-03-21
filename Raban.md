@@ -2,8 +2,8 @@
 layout: page
 title: Raban
 member-rank: 5
-member-server: argent-dawn
-member-armory: 127/159823999
+member-realm: argent-dawn
+member-armory: argent-dawn/127/159823999
 subtitle: goes postal!
 ---
 

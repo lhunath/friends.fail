@@ -2,8 +2,8 @@
 layout: page
 title: Kreesto
 member-rank: 4
-member-server: argent-dawn
-member-armory: 63/161846079
+member-realm: argent-dawn
+member-armory: argent-dawn/63/161846079
 subtitle: is trouble.
 ---
 

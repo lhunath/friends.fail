@@ -2,8 +2,8 @@
 layout: page
 title: Spriggarn
 member-rank: 5
-member-server: argent-dawn
-member-armory: 91/8393819
+member-realm: argent-dawn
+member-armory: argent-dawn/91/8393819
 subtitle: is all powerful.
 ---
 

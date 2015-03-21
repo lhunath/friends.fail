@@ -2,8 +2,8 @@
 layout: page
 title: Cordeliarose
 member-rank: 5
-member-server: the-scryers
-member-armory: 133/147431813
+member-realm: the-scryers
+member-armory: argent-dawn/133/147431813
 subtitle: is sneaky.
 ---
 

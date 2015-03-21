@@ -2,8 +2,8 @@
 layout: page
 title: Mephisto
 member-rank: 2
-member-server: argent-dawn
-member-armory: 124/47617404
+member-realm: argent-dawn
+member-armory: argent-dawn/124/47617404
 subtitle: 
 ---
 

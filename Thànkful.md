@@ -2,8 +2,8 @@
 layout: page
 title: Thànkful
 member-rank: 5
-member-server: argent-dawn
-member-armory: 214/159940054
+member-realm: argent-dawn
+member-armory: argent-dawn/137/159071625
 subtitle: The killing machine!
 ---
 

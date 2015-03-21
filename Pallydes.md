@@ -2,8 +2,8 @@
 layout: page
 title: Pallydes
 member-rank: 4
-member-server: argent-dawn
-member-armory: 87/159541847
+member-realm: argent-dawn
+member-armory: argent-dawn/87/159541847
 subtitle: unnaturally firm.
 ---
 

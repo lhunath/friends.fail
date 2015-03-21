@@ -2,8 +2,8 @@
 layout: page
 title: Denola
 member-rank: 4
-member-server: argent-dawn
-member-armory: 92/159079004
+member-realm: argent-dawn
+member-armory: argent-dawn/92/159079004
 subtitle: is silently brilliant.
 ---
 

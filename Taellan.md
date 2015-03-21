@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Taellan
-member-rank: 4
-member-server: argent-dawn
-member-armory: /118/102188662
+member-rank: 5
+member-realm: argent-dawn
+member-armory: argent-dawn/118/102188662
 subtitle: is broad and deep.
 ---
 

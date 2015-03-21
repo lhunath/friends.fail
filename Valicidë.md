@@ -2,8 +2,8 @@
 layout: page
 title: Valicidë
 member-rank: 4
-member-server: argent-dawn
-member-armory: 50/161735986
+member-realm: argent-dawn
+member-armory: argent-dawn/50/161735986
 subtitle: is leetsauce.
 ---
 
