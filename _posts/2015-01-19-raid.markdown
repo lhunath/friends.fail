@@ -3,17 +3,18 @@ layout: post
 title:  "HM Heroic and progress in BRF Normal"
 date:   2015-03-20 23:41:52
 categories: hm brf
-author: Denola
+author: Sinterklaas
 ---
 
 The pack set out for another round of bullying Draenor orcs.  Tonight, we made great progress in BRF normal and took out Oregorger.  It was our first honest attempt after a quick trial yesterday and it took a few attempts before we all had a good clue on what this mole rat was up to as he rolls around the place.  We took him down after 5 good attempts.
 
 A short visit to Highmaul Heroic helped to gear us up a bit - we know these fights pretty well by now and it was mostly smooth sailing.
 
-Cheers!
+Great job folks, three cheers for each of you!
 
  - HM Normal: 6/7
  - HM Heroic: 3/7
  - BRF Normal: 4/10
 
+## Butchered
 ![Butcher!](/assets/2015-03-20-butcher.jpg)
