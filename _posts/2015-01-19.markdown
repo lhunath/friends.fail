@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "HM Heroic and progress in BRF Normal"
+date:   2015-03-20 23:41:52
+categories: hm brf
+author: Denola
+---
+
+[Butcher!]({{ site.url }}/assets/2015-03-20-butcher.jpg)
