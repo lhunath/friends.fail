@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+source bashlib
+cd "${BASH_SOURCE%/*}"
+trap 'rm tmp' EXIT
+
+pinf 'Loading member information from the Armory'
+json=$(
+    curl -s 'https://us.api.battle.net/wow/guild/argent-dawn/Friends%20with%20Benefits?fields=members&locale=en_US&apikey=fm6mz7f4b98efktu3vuqyvpzf2y4sj7p' | tee members.json |
+    jq -r '.members | map(select(.rank < 5 and .rank > 0))[] | .character.name, .character.realm'
+)
+while read -u 3 name && read -u 3 realm; do
+    realm=${realm// /-} realm=${realm,,}
+    simcParty+=("armory=us,$realm,$name")
+done 3<<< "$json"
+fnip
+
+/Applications/SimulationCraft/simc \
+    default_region=us default_server=argent-dawn \
+    "${simcParty[@]}" \
+    html="FriendsWithBenefits-sim.html" \
+    #| awk -F'[: ]' '/DPS:/ {print $5}')
