@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Raxeira
-member-rank: 4
+member-rank: 3
 member-realm: argent-dawn
 member-armory: argent-dawn/203/161300427
 subtitle: is gorgeously opinionated.
