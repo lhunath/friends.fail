@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Raban
 member-rank: 5
 member-realm: argent-dawn
 member-armory: argent-dawn/127/159823999

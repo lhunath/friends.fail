@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Thànkful
 member-rank: 5
 member-realm: argent-dawn
 member-armory: argent-dawn/137/159071625

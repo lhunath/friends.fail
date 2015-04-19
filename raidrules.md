@@ -2,7 +2,6 @@
 layout: page
 title: Raid Rules
 description: What you need to know.
-class: raidrules
 permalink: /raidrules/
 ---
 

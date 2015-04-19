@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Zubrend
 member-rank: 5
 member-realm: argent-dawn
 member-armory: argent-dawn/157/15593885

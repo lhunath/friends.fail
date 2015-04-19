@@ -2,8 +2,8 @@
 layout: page
 title: Story
 description: And then there were four.
-class: story
 permalink: /story/
+hide: 1
 ---
 
 ## Chapter 1

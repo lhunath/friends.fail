@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Modan
 member-rank: 1
 member-realm: the-scryers
 member-armory: argent-dawn/78/147253582

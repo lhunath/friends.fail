@@ -6,9 +6,11 @@
           <div class="trigger">
               <a class="site-link" href="{{ site.baseurl }}/">{{ site.title }}</a>
               {% for page in site.pages %}
-                  {% if page.title and page.permalink %}
-                      <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                      <div>{{ page.description }}</div>
+                  {% if page.permalink and page.title %}
+                      {% unless page.hide %}
+                          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                          <div>{{ page.description }}</div>
+                      {% endunless %}
                   {% endif %}
               {% endfor %}
           </div>

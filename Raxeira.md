@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Raxeira
 member-rank: 3
 member-realm: argent-dawn
 member-armory: argent-dawn/203/161300427

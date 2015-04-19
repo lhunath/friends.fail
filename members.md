@@ -2,7 +2,6 @@
 layout: page
 title: Members
 description: The amazing people that make up the team.
-class: members
 permalink: /members/
 ---
 
@@ -11,9 +10,10 @@ permalink: /members/
 <ul class="members-list">
     {% for page in site.pages %}
         {% if page.member-rank <= 1 %}
-            <li style="background-image:url('http://us.battle.net/static-render/us/{{ page.member-armory }}-profilemain.jpg')"><a class="post-link" href="/{{ page.title }}-sim.html">
+            {% assign name = page.path | split: '/' | last | split: '.' | first %}
+            <li style="background-image:url('http://us.battle.net/static-render/us/{{ page.member-armory }}-profilemain.jpg')"><a class="post-link" href="/{{ name }}-sim.html">
 
-                <h2>{{ page.title }}</h2>
+                <h2>{{ name }}</h2>
                 <h3>{{ page.subtitle }}</h3>
                 <div>{{ page.content }}</div>
 
@@ -27,9 +27,10 @@ permalink: /members/
 <ul class="members-list">
     {% for page in site.pages %}
         {% if page.member-rank > 1 and page.member-rank <= 4 %}
-            <li style="background-image:url('http://us.battle.net/static-render/us/{{ page.member-armory }}-profilemain.jpg')"><a class="post-link" href="/{{ page.title }}-sim.html">
+            {% assign name = page.path | split: '/' | last | split: '.' | first %}
+            <li style="background-image:url('http://us.battle.net/static-render/us/{{ page.member-armory }}-profilemain.jpg')"><a class="post-link" href="/{{ name }}-sim.html">
 
-                <h2>{{ page.title }}</h2>
+                <h2>{{ name }}</h2>
                 <h3>{{ page.subtitle }}</h3>
                 <div>{{ page.content }}</div>
 
@@ -43,9 +44,10 @@ permalink: /members/
 <ul class="members-list">
     {% for page in site.pages %}
         {% if page.member-rank > 4 %}
-            <li style="background-image:url('http://us.battle.net/static-render/us/{{ page.member-armory }}-profilemain.jpg')"><a class="post-link" href="/{{ page.title }}-sim.html">
+            {% assign name = page.path | split: '/' | last | split: '.' | first %}
+            <li style="background-image:url('http://us.battle.net/static-render/us/{{ page.member-armory }}-profilemain.jpg')"><a class="post-link" href="/{{ name }}-sim.html">
 
-                <h2>{{ page.title }}</h2>
+                <h2>{{ name }}</h2>
                 <h3>{{ page.subtitle }}</h3>
                 <div>{{ page.content }}</div>
 

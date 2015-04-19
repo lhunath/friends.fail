@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Sinterklaas
 member-rank: 5
 member-realm: argent-dawn
 member-armory: argent-dawn/168/160630184

@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Kreesto
 member-rank: 2
 member-realm: argent-dawn
 member-armory: argent-dawn/63/161846079

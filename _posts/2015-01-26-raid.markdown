@@ -6,7 +6,7 @@ categories: hm
 author: Sinterklaas
 ---
 
-# HM Heroic and progress in BRF Normal
+# HM Heroic and BRF Normal
 
 We got a few awesome new members!  That means, this week was dedicated to bumping up member iLevel to BRF standards.
 

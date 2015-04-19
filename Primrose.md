@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Primrose
 member-rank: 1
 member-realm: argent-dawn
 member-armory: argent-dawn/99/159078755

@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Cordeliarose
 member-rank: 5
 member-realm: the-scryers
 member-armory: argent-dawn/133/147431813

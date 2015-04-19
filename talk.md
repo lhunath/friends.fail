@@ -1,8 +1,9 @@
 ---
 layout: page
 big-intro: yes
-permalink: /mumble/
-class: mumble
+title: Talk
+permalink: /talk/
+description: Joining our voice channel.
 ---
 
 Join the group!
@@ -21,6 +22,7 @@ Install and setup is quick and connecting to our server is dead easy:
  - [Mac](http://mumble.info/snapshot/Mumble-Universal-1.3.0~570~gf6aa3cf~snapshot.dmg)
  - [Linux](https://launchpad.net/~mumble/+archive/snapshot)
  - [iPhone / iPad](http://itunes.apple.com/us/app/mumble/id443472808?ls=1&mt=8)
+ - [Android](https://play.google.com/store/apps/details?id=com.morlunk.mumbleclient.free)
 
 Once installed, just connect to:
 
