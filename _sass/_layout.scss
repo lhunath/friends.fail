@@ -14,6 +14,14 @@ html, body {
     font-size: 16pt;
 }
 
+#iscroll {
+    width: 100%;
+    height: 100%;
+}
+.iscroll {
+    height: 100%;
+}
+
 section {
     background: #224;
     box-shadow: 0 0 5px #000;
@@ -22,8 +30,8 @@ section {
     position: relative;
     box-sizing: border-box;
     width: 100%;
-    min-height: 80%;
-    padding: 5em 5em;
+    min-height: 600px;
+    padding: 1em 5em;
     overflow: hidden;
 }
 
@@ -134,8 +142,8 @@ em {
 
 .page-edit {
     position: absolute;
-    top: 1ex;
-    right: 0;
+    top: 0.5ex;
+    right: -2em;
     padding-right: inherit;
 }
 
@@ -147,10 +155,16 @@ em {
 }
 
 .intro {
-    background: url("../assets/intro.jpg");
-    background-size: cover;
-
     padding: 0;
+    height: 1px; // fixes min-height inheritence by .background.
+
+    .background {
+        height: 100%;
+        background: url("../assets/intro.jpg") 0 0 no-repeat;
+        //background-attachment: fixed;
+        background-size: cover;
+        overflow: visible;
+    }
 
     h1 {
         position: absolute;
@@ -170,7 +184,7 @@ em {
 
         a, & {
             color: #FFF;
-            text-shadow: 0px 0px 1px #000, 0px 0px 5px #000, 0px 0px 5px #000;
+            text-shadow: 0px 0px 1px #000, 0px 0px 5px #000, 0px 0px 90px #FA9;
         }
     }
 
@@ -182,8 +196,9 @@ em {
             background: transparent;
         }
     }
-    &.mumble {
-        background: url("../assets/laughing.jpg");
+    &.mumble .background {
+        background: url("../assets/laughing.jpg") 0 0 no-repeat;
+        //background-attachment: fixed;
         background-size: cover;
     }
 }
@@ -360,6 +375,7 @@ em {
 .site-footer {
     border-top: 1px solid;
     padding: $spacing-unit 0;
+    overflow: hidden;
 }
 
 .footer-heading {

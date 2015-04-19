@@ -4,11 +4,15 @@
     {% include head.html %}
 
     <body>
-        {% include header.html %}
+        <div id="iscroll">
+            <div>
+                {% include header.html %}
 
-        {{ content }}
+                {{ content }}
 
-        {% include footer.html %}
+                {% include footer.html %}
+            </div>
+    </div>
 
         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
         <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
