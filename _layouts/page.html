@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<section class="intro {% unless page.big-intro %}small{% endunless %}">
+<section class="intro {% unless page.big-intro %}small{% endunless %} {{ page.class }}" data-stellar-ratio="0.4">
 
     <h1><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
 
 </section>
 
-<section class="{{ page.class }}">
+<section class="page {{ page.class }}">
     {% if page.editable or page.editable == null %}
         <h4 class="page-edit"><a href="http://prose.io/#lhunath/friends.fail/edit/gh-pages/{{ page.path }}">[edit]</a></h4>
     {% endif %}

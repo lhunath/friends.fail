@@ -14,8 +14,10 @@
         <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
         <script src="{{ site.baseurl }}/js/jquery-mustache.js"></script>
         <script src="{{ site.baseurl }}/js/mustache.js"></script>
+        <script src="{{ "/js/plugins.js?" | append: site.resource_version | prepend: site.baseurl }}"></script>
+        <script src="{{ "/js/main.js?" | append: site.resource_version | prepend: site.baseurl }}"></script>
         {% for script in page.scripts %}
-        <script src="{{ site.baseurl }}{{ script }}?{{ site.resource_version }}"></script>
+        <script src="{{ {{ script }}? | append: site.resource_version | prepend: site.baseurl }}"></script>
         {% endfor %} 
     </body>
 

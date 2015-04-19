@@ -182,9 +182,13 @@ em {
             background: transparent;
         }
     }
+    &.mumble {
+        background: url("../assets/laughing.jpg");
+        background-size: cover;
+    }
 }
 
-.members {
+.page.members {
     ul {
         margin: 0;
         padding: 0;
