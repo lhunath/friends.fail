@@ -11,10 +11,14 @@ Join the group!
 
 To communicate and plan out the boss efforts, we use voice chat.  Please join us in our channel, even if you're not planning in speaking, so that you can hear instructions and warnings called out by the group leader.
 
-Mumble
-------
+`mumble.friends.fail`
+=====================
 
-We use Mumble for our voice communications.  Mumble is a technically superior, freedom-respecting, cross-platform, high-quality and low-latency VoIP client.
+We use Mumble for our voice communications.
+
+Why do we use Mumble instead of *[insert your favorite]*?  Mumble is free, less laggy, higher quality, auto-balances volumes, more private and secure, encrypted and supports more OSes.
+
+### Download
 
 Install and setup is quick and connecting to our server is dead easy:
 
@@ -24,9 +28,17 @@ Install and setup is quick and connecting to our server is dead easy:
  - [iPhone / iPad](http://itunes.apple.com/us/app/mumble/id443472808?ls=1&mt=8)
  - [Android](https://play.google.com/store/apps/details?id=com.morlunk.mumbleclient.free)
 
-Once installed, just connect to:
+### Connecting
 
-talk.friends.fail
------------------
+Just add `mumble.friends.fail` as a server (using the default port *64738*).
+Ask us for the server password in-game if you don't have it yet.
 
-Leave the port as the default (64738) and use the **password: fwb**.
+### Overlay on Windows
+
+To get the Mumble overlay to show up under World of Warcraft, you need to set it to use DirectX 9 instead of 11.
+
+You can do this from *Settings -> System -> Advanced -> Graphics API* (on the bottom).
+
+### Can't install Mumble just now?
+
+We have a proxy bot that connects Ventrilo and Mumble.  You can connect to `vent.friends.fail` instead (using the default port *3784*).
