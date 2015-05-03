@@ -41,4 +41,5 @@ You can do this from *Settings -> System -> Advanced -> Graphics API* (on the bo
 
 ### Can't install Mumble just now?
 
-We have a proxy bot that connects Ventrilo and Mumble.  You can connect to `vent.friends.fail` instead (using the default port `3784`).
+We have a proxy bot that links Ventrilo and Mumble.
+You can connect to `vent.friends.fail` instead (using the default port `3784`).
