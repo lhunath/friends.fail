@@ -30,7 +30,7 @@ Install and setup is quick and connecting to our server is dead easy:
 
 ### Connecting
 
-Just add `mumble.friends.fail` as a server (using the default port *64738*).
+Just add `mumble.friends.fail` as a server (using the default port `64738`).
 Ask us for the server password in-game if you don't have it yet.
 
 ### Overlay on Windows
@@ -41,4 +41,4 @@ You can do this from *Settings -> System -> Advanced -> Graphics API* (on the bo
 
 ### Can't install Mumble just now?
 
-We have a proxy bot that connects Ventrilo and Mumble.  You can connect to `vent.friends.fail` instead (using the default port *3784*).
+We have a proxy bot that connects Ventrilo and Mumble.  You can connect to `vent.friends.fail` instead (using the default port `3784`).
