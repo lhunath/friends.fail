@@ -12,10 +12,9 @@ while read -u 3 name && read -u 3 realm && read -u 3 thumb && read -u 3 rank; do
         pinf 'Updating profile page of %s' "$name"
             realm=${realm// /-} realm=${realm,,}
             thumb=${thumb%-*}
-            ex -c "/title:/s/:.*/: $name/e|x" "$name.md"
-            ex -c "/member-rank:/s/:.*/: $rank/e|x" "$name.md"
-            ex -c "/member-realm:/s/:.*/: $realm/e|x" "$name.md"
-            ex -c "/member-armory:/s/:.*/: ${thumb//\//\\\/}/e|x" "$name.md"
+            ex -c "/^member-rank:/s/:.*/: $rank/e|x" "$name.md"
+            ex -c "/^member-realm:/s/:.*/: $realm/e|x" "$name.md"
+            ex -c "/^member-armory:/s/:.*/: ${thumb//\//\\\/}/e|x" "$name.md"
         fnip
     else
         wrn 'Missing profile page for %s' "$name"
